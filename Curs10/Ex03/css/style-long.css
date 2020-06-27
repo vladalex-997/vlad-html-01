@@ -1,7 +1,7 @@
 /* don't touch this */
 .pane {
-  width: 38%; 
-  float: left; 
+  width: 38%;
+  float: left;
   border: 1px solid #000;
   padding: 5px;
   margin-right: 20px;
@@ -22,14 +22,14 @@ ul, ol {
   padding-bottom: 10px;
   padding-left: 11px;
 
-  border-width: 1px; 
-  border-style: dashed; 
+  border-width: 1px;
+  border-style: dashed;
   border-color: green;
 }
 
 .pane-long .container p {
-  border-width: 1px; 
-  border-style: solid; 
+  border-width: 1px;
+  border-style: solid;
   border-color: royalblue;
 
   margin-top: 11px;
@@ -70,12 +70,14 @@ ul, ol {
   margin-bottom: 11px;
   margin-left: auto;
 
-  border-width: 1px; 
-  border-style: solid; 
+  border-width: 1px;
+  border-style: solid;
   border-color: blueviolet;
 
-  
+
+  padding-top: 2px;
   padding-right: 10px;
+  padding-bottom: 5px;
   padding-left: 10px;
 }
 
@@ -85,8 +87,10 @@ ul, ol {
   text-decoration-color: lightcoral;
 
   margin-top: 5px;
+  margin-right: 10px;
   margin-bottom: 5px;
-  
+  margin-left: 10px;
+
 
   padding-top: 2px;
   padding-right: 4px;

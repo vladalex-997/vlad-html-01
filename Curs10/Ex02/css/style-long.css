@@ -13,9 +13,9 @@ ul, ol {
 /* don't touch this */
 
 .pane-long .heading {
-  border-color: red;
   border-width: 1px;
   border-style: dashed;
+  border-color: red;
 
   padding-top: 5px;
   padding-right: 5px;
@@ -24,9 +24,9 @@ ul, ol {
 }
 
 .pane-long .container {
-  border-color: gray;
   border-width: 2px;
   border-style: solid;
+  border-color: gray;
 
   margin-top: 18px;
   margin-right: 22px;
@@ -86,7 +86,9 @@ ul, ol {
   overflow: hidden;
 
   padding-top: 12px;
+  padding-right: 20px;
   padding-bottom: 6px;
+  padding-left: 8px;
 }
 
 .pane-long .anchor-list li {
@@ -96,10 +98,14 @@ ul, ol {
 
   float: left;
 
+  padding-top: 10px;
   padding-right: 5px;
+  padding-bottom: 10px;
   padding-left: 5px;
 
+  margin-top: 5px;
   margin-right: 5px;
+  margin-bottom: 5px;
   margin-left: 5px;
 }
 
