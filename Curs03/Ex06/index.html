@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio boxes</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <title>Radio boxes</title>
+    <link
+      rel="stylesheet"
+      href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
+    />
+  </head>
 
+  <body>
+    <h1>Animalele mele preferate</h1>
+    <form>
+      <h3>Pasari</h3>
+      <ul>
+        <li>
+          <input type="radio" name="pasari" id="uliu" value="Uliu" />
+          <label for="uliu">Uliu</label>
+        </li>
+        <li>
+          <input type="radio" name="pasari" id="bufnita" value="Bufnita" />
+          <label for="bufnita">Bufnita</label>
+        </li>
+        <li>
+          <input type="radio" name="pasari" id="lebada" value="Lebada" />
+          <label for="lebada">Lebada</label>
+        </li>
+      </ul>
+    </form>
 
-  <link
-    rel="stylesheet"
-    href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
-  >
-</head>
+    <form>
+      <h3>Pesti</h3>
 
-<body>
-  <h1>Animalele mele preferate</h1>
-  <form>
-    <h3>Pasari</h3>
-    <ul>
-      <li>
-        <input
-          type="radio"
-          name="pasari"
-          id="uliu"
-          value="Uliu"
-        >
-        <label for="uliu">Uliu</label>
-      </li>
-      <li>
-        <input
-          type="radio"
-          name="pasari"
-          id="bufnita"
-          value="Bufnita"
-        >
-        <label for="bufnita">Bufnita</label>
-      </li>
-      <li>
-        <input
-          type="radio"
-          name="pasari"
-          id="lebada"
-          value="Lebada"
-        >
-        <label for="lebada">Lebada</label>
-      </li>
-    </ul>
-  </form>
+      <ul>
+        <li>
+          <input type="radio" name="pesti" id="ton" value="ton" />
 
-  <div
-    class="pixeltab-host"
-    id="html01-03-06"
-  ></div>
-  <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
-</body>
+          <label for="ton">Ton</label>
+        </li>
+        <li>
+          <input type="radio" name="pesti" id="crap" value="crap" />
 
+          <label for="crap">Crap</label>
+        </li>
+        <li>
+          <input type="radio" name="pesti" id="pastrav" value="pastrav" />
+
+          <label for="pastrav">Pastrav</label>
+        </li>
+      </ul>
+
+      <button type="submit">Trimite</button>
+    </form>
+
+    <div class="pixeltab-host" id="html01-03-06"></div>
+    <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+  </body>
 </html>

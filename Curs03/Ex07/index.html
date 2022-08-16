@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <title>Select</title>
+    <link
+      rel="stylesheet"
+      href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
+    />
+  </head>
 
-  <link
-    rel="stylesheet"
-    href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
-  >
-</head>
+  <body>
+    <h1>Tari si diviziunile lor</h1>
+    <form>
+      <h3>Statele Unite</h3>
+      <select>
+        <option value="">--selecteaza--</option>
+        <option value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="northDakota">North Dakota</option>
+        <option value="newYork">New York</option>
+        <option value="boston">Boston</option>
+      </select>
+      <hr />
+    </form>
 
-<body>
-  <h1>Tari si diviziunile lor</h1>
-  <form>
-    <h3>Statele Unite</h3>
-    <select>
-      <option value="">--selecteaza--</option>
-      <option value="alabama">Alabama</option>
-      <option value="arkansas">Arkansas</option>
-      <option value="northDakota">North Dakota</option>
-      <option value="newYork">New York</option>
-      <option value="boston">Boston</option>
-    </select>
-    <hr>
+    <form>
+      <label for="canada">Canada</label>
 
-  </form>
+      <select name="canada" id="canada" required>
+        <option value="">--selecteaza--</option>
 
+        <option value="ontario">Ontario</option>
 
-  <div
-    class="pixeltab-host"
-    id="html01-03-07"
-  ></div>
-  <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
-</body>
+        <option value="quebec">Quebec</option>
 
+        <option value="newBrunsnick">New Brunsnick</option>
+
+        <option value="newfoundland">New Foundland</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="pixeltab-host" id="html01-03-07"></div>
+    <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+  </body>
 </html>
