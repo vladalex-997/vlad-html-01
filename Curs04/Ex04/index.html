@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
+    />
+  </head>
 
-  <link
-    rel="stylesheet"
-    href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
-  >
-</head>
+  <body>
+    <!-- insert h1 p+img.. -->
 
-<body>
+    <p>Subscribe <b>now</b> for our best offers!</p>
 
+    <!-- insert code -->
 
-  <div
-    class="pixeltab-host"
-    id="html01-04-04"
-  ></div>
-  <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
-</body>
+    <p>
+      <a href="/" title="Privacy">Privacy</a>
+    </p>
 
+    <h2>Newsletter Form</h2>
+
+    <form>
+      <fieldset>
+        <legend>Subscribe:</legend>
+
+        <label>Title</label>
+        <label for="male">Mr</label>
+        <input type="radio" name="gender" id="male" value="male" checked />
+        <label for="female">Mss</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="na">Unspecified</label>
+        <input type="radio" name="gender" id="na" value="na" />
+
+        <br />
+
+        <input type="checkbox" name="subscribe" id="subscribe" />
+        <label for="subscribe"
+          >Agree to this and <i> we will send you emails</i>.
+        </label>
+        <br />
+
+        <button type="submit" title="Subscribe">Subscribe</button>
+      </fieldset>
+    </form>
+
+    <div class="pixeltab-host" id="html01-04-04"></div>
+    <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+  </body>
 </html>
