@@ -12,6 +12,7 @@ body {
 
 .box-1 {
   background-color: aquamarine;
+
 }
 
 .box-2 {
@@ -21,3 +22,9 @@ body {
 .box-3 {
   background-color: bisque;
 }
+
+.box-1 {
+  border-color: green;
+  color: purple;
+}
+
