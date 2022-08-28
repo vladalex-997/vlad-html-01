@@ -23,3 +23,45 @@
   border: 3px solid green;
   padding: 15px;
 }
+
+.green {
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.transparent {
+  width: 300px;
+  border: 2px solid red;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

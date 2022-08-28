@@ -1,5 +1,5 @@
 p i {
-color: red;
+  color: red;
 }
 
 .line {
@@ -10,8 +10,37 @@ color: red;
   text-decoration: none;
 }
 
-
 a[href^="http://"]
 {
-color: red;
+  color: red;
+}
+
+a {
+  color: green;
+}
+
+p .line {
+  color: grey;
+}
+
+p b {
+  color: purple;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+.even b {
+  text-decoration: underline;
+}
+
+a[href*='.com'] {
+  color: black;
+  /* text-decoration: underline; --
+  fara underline toate pixeltab sunt verzi. Daca punem underline se contrazice cu cerinta de la punctul 4 si se fac 2 rosii */
 }

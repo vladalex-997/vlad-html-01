@@ -12,7 +12,6 @@ body {
 
 .box-1 {
   background-color: aquamarine;
-
 }
 
 .box-2 {
@@ -28,3 +27,12 @@ body {
   color: purple;
 }
 
+.box-2 {
+  border-color: grey;
+  color: white;
+}
+
+.box-3 {
+  border-color: blue;
+  color: red;
+}
