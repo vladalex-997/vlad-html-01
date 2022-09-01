@@ -1,0 +1,12 @@
+.main a:hover {
+  text-decoration: none;
+}
+
+p i {
+  position: relative;
+}
+
+p:hover i {
+  left: 2px;
+  top: -2px;
+}
