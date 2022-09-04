@@ -8,8 +8,16 @@
   background-color: red;
 }
 
+.box-red {
+  transform: rotate(-30deg);
+}
+
 .box-green {
   background-color: green;
+}
+
+.box-green {
+  transform: translate(25px, 100px);
 }
 
 .box-purple {
@@ -20,8 +28,16 @@
   background-color: brown;
 }
 
+.box-brown {
+  transform: skew(10deg, 10deg) translate(-10px, -5px);
+}
+
 .box-yellow {
   background-color: yellow;
+}
+
+.box-yellow {
+  transform: scale(1.2) rotate(-15deg);
 }
 
 .box-purple {
