@@ -1,0 +1,25 @@
+.my-first-list a {
+  display: block;
+  margin: 8px 0;
+}
+
+.my-first-list a::before {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: purple;
+  content: '';
+  transform: rotate(45deg);
+  margin-right: 8px;
+}
+
+.my-first-list a::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: red;
+  /* daca vrem cercuri */
+  border-radius: 50%;
+  margin-left: 8px;
+}
